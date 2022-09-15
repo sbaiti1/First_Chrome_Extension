@@ -1,0 +1,16 @@
+{
+    "name" : "New tab" , 
+    "version" : "0.1" , 
+    "description" : "home page" , 
+    "manifest_version" : 3 , 
+    "author" : "salma sbaiti" , 
+    "action" : {
+        "default_popup" : "index.html" , 
+        "default_title" : "New tab"
+    },
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+      }
+    
+      
+}

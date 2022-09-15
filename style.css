@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('img.jpg')
+}
+h1{
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+q{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #fff;
+    word-spacing: 7px;
+}
